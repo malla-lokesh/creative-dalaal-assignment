@@ -23,16 +23,18 @@ function App() {
   };
 
   return (
-    <div>
-      <div>
+    <div className="main">
+      <div className="header">
+        <label for="actual-btn">Upload File</label>
         <input
           type="file"
           name="input"
-          id="input"
+          id="actual-btn"
           onChange={handleFileChange}
+          hidden
         />
       </div>
-      <div>{content}</div>
+      <section className="content">{content}</section>
     </div>
   );
 }

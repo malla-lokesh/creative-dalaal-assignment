@@ -1,3 +1,33 @@
-.highlight {
-  background-color: yellow;
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  height: 30%;
+  width: 30%;
+  text-align: center;
+  align-content: center;
+}
+
+label {
+  background-color: indigo;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.content {
+  height: 70%;
+  width: 70%;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+  overflow: hidden scroll;
 }
